@@ -2,14 +2,16 @@ import { useState } from "react"
 const UrlShortener = () =>{
     const [originalUrl, setOriginalUrl] = useState("")
     const [shortcode, setShortcode] = useState("")
-    const BASE_URL = "http://localhost:8080";
+    // const BASE_URL = "http://localhost:8080";
+    const BASE_URL = "https://fisslinkbkd.onrender.com";
 
 
-
+    // locally fetch from :http://localhost:8080/shortenUrl
+    
     const handleUrlShortening = async (event) => {
         event.preventDefault();
         try {
-            const response = await fetch ("http://localhost:8080/shortenUrl", {
+            const response = await fetch (`${BASE_URL}/shortenUrl`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
