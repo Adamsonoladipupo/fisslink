@@ -4,15 +4,15 @@ A simple URL shortener web application built with React and Spring Boot.
 
 ---
 
-## 🚀 Overview
+## Overview
 
 fisslink is a full-stack web application that allows users to shorten long URLs into compact, shareable links.
 
-The name is inspired by *fission* — the idea of splitting something large into smaller parts, just like long URLs are converted into short links.
+The name is inspired by *fission* — the idea of splitting something large into smaller parts (Physics), just like long URLs are converted into short links.
 
 ---
 
-## 🎯 Features
+## eatures
 
 - 🔗 Shorten long URLs into unique short links
 - ⚡ Fast redirection to original URLs
@@ -22,7 +22,7 @@ The name is inspired by *fission* — the idea of splitting something large into
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 Frontend:
 - JavaScript
@@ -37,7 +37,7 @@ Database (planned):
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 fisslink/
 ├── frontend/
@@ -54,7 +54,7 @@ fisslink/
 
 ---
 
-## ⚙️ Backend Architecture (Planned)
+## Backend Architecture (Planned)
 
 - REST API built with Spring Boot
 - Generates unique short codes for URLs
@@ -63,7 +63,7 @@ fisslink/
 
 ---
 
-## 🧪 API Endpoints (Planned)
+## API Endpoints (Planned)
 
 ### Create Short URL
 POST /api/urls
@@ -87,7 +87,7 @@ Redirects user to the original URL.
 
 ---
 
-## 🗄️ Database Schema (Planned)
+## Database Schema (Planned)
 
 Table: urls
 
@@ -98,7 +98,7 @@ Table: urls
 
 ---
 
-## 🧠 Future Improvements
+## Future Improvements
 
 - User authentication
 - Click analytics
@@ -108,7 +108,7 @@ Table: urls
 
 ---
 
-## 🚀 Deployment Plan
+## Deployment Plan
 
 - Frontend: Render / Vercel  
 - Backend: Render  
@@ -116,13 +116,12 @@ Table: urls
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Built by Adamson  
-Full-stack developer in progress 🚀  
 
 ---
 
-## 📌 Status
+## Status
 
 Project is currently under development
