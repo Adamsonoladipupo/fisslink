@@ -1,4 +1,12 @@
 package com.fisslink.backend.dtos.requests;
 
-public class ShortCodeRequest {
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+public class ShortCodeRequestDto {
+    private String shortCode;
 }
